@@ -1,0 +1,20 @@
+{
+  "name": "strononode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.14.3",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "graphql-compose": "^7.18.1",
+    "graphql-type-datetime": "^0.2.4",
+    "mongoose": "^5.9.18",
+    "pluralize": "^8.0.0"
+  }
+}
